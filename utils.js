@@ -44,8 +44,9 @@ function generateHtml(raw, title, flag) {
         line-height: 1.4;
       }
       body {
-        margin: 16px auto;
+        margin: 1em auto;
         max-width: 768px;
+        padding: 1em;
       }
       img {
         max-width: 768px;
