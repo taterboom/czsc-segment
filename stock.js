@@ -3,5 +3,5 @@ const mammoth = require("mammoth")
 const { generate } = require("./utils")
 
 mammoth.convertToHtml({ path: path.join(__dirname, "./缠中说禅全部博客内容.docx") }).then((res) => {
-  generate(res.value, "缠中说缠-教你炒股票", "教你炒股票")
+  generate(res.value, "缠中说禅-教你炒股票", "教你炒股票")
 })
